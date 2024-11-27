@@ -72,3 +72,49 @@ button{
 #reset:hover{
     background-color: hsl(213, 100%, 20%);
 }
+
+@media screen and (max-width:600px) {
+    #clock-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        padding: 25px;
+        border: 3px solid;
+        border-radius: 50px;
+        box-shadow: 2px 2px 2px 2px;
+    }
+
+    #display{
+        font-size: 3rem;
+        margin-bottom: 10px;
+        font-family:monospace;
+    }
+
+    body{
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        flex-direction: column;
+        align-items: center;
+        height: 90vh;
+        justify-content: center;
+        background-color: aliceblue;
+    }
+
+    #display{
+        font-size: 3rem;
+        margin-bottom: 10px;
+        font-family:monospace\\;
+    }
+
+    button{
+        font-size: 1.5rem;
+        padding: 5px 15px;
+        margin: 5px;
+        border-radius: 10px;
+        border: none;
+        color: aliceblue;
+        cursor: pointer;
+        transition: background-color 200ms ease;
+    }
+}
